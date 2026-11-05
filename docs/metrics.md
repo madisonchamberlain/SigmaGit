@@ -2,7 +2,7 @@
 
 Owned by the Data team. Questions go to #data-help.
 
-## ARR (Annual Recurring Revenue)
+## ARR (Annual Recurring Revenue) 
 
 ARR is the annualized value of all active subscription contracts on the last
 day of the month.
@@ -20,7 +20,7 @@ their ARR 12 months ago.
 
 - Formula: `current_arr_of_cohort / arr_of_cohort_12_months_ago`
 - Includes expansion and contraction; excludes new logos.
-- Target is 120% or higher.
+- Target is 125% or higher.
 
 ## Churn
 
