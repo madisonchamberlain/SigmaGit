@@ -5,7 +5,7 @@ Owned by the Data team. Questions go to #data-help.
 ## ARR (Annual Recurring Revenue) 
 
 ARR is the annualized value of all active subscription contracts on the last
-day of the month.
+day of the month. ABCDE
 
 - Source table: `ANALYTICS.FINANCE.SUBSCRIPTIONS`
 - Formula: `sum(monthly_contract_value) * 12` for rows where `status = 'active'`
