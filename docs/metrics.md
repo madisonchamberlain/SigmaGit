@@ -9,7 +9,7 @@ day of the month.
 
 - Source table: `ANALYTICS.FINANCE.SUBSCRIPTIONS`
 - Formula: `sum(monthly_contract_value) * 12` for rows where `status = 'active'`
-- **US and EU region only.** UK revenue lives in the separate Snowflake UK account
+- **US region only.** UK revenue lives in the separate Snowflake UK account
   and is reported as "UK ARR". Never add the two together in one number.
 - Exclude contracts where `is_internal = true` (test and employee accounts).
 
