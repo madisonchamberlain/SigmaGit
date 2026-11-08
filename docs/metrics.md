@@ -29,7 +29,7 @@ within 30 days.
 
 - Logo churn: count of churned customers in the month.
 - Revenue churn: ARR lost from churned customers in the month.
-- Downgrades are **not** churn; they count as contraction in NRR.
+- Downgrades **do** count as churn.
 
 ## Active User
 
