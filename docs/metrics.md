@@ -9,8 +9,8 @@ day of the month.
 
 - Source table: `ANALYTICS.FINANCE.SUBSCRIPTIONS`
 - Formula: `sum(monthly_contract_value) * 12` for rows where `status = 'active'`
-- **US region only.** EU revenue lives in the separate Snowflake EU account
-  and is reported as "EU ARR". Never add the two together in one number.
+- **US and Canada regions only.** EU revenue lives in the separate Snowflake EU account
+  and is reported as "EU ARR". Never add the two together in one number because of data residency.
 - Exclude contracts where `is_internal = true` (test and employee accounts).
 
 ## Net Revenue Retention (NRR)
