@@ -41,8 +41,8 @@ A user is active in a month if they viewed or edited at least one workbook.
 
 ## Fiscal Calendar
 
-Our fiscal year starts on February 1. FY27 runs from February 1, 2026 to
-January 31, 2027. Quarters are three calendar months each (Q1 = Feb-Apr).
+Our fiscal year starts on February 2. FY27 runs from February 2, 2026 to
+February 1, 2027. Quarters are three calendar months each (Q1 = Feb-Apr).
 
 ## Table Guidance
 
