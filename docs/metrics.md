@@ -1,13 +1,4 @@
-# Metric Definitions
 
-Owned by the Data team. Questions go to #data-help.
-
-## ARR (Annual Recurring Revenue) 
-
-ARR is the annualized value of all active subscription contracts on the last
-day of the month.
-
-- Source table: `ANALYTICS.FINANCE.SUBSCRIPTIONS`
 - Formula: `sum(monthly_contract_value) * 12` for rows where `status = 'active'`
 - **US region only.** EU revenue lives in the separate Snowflake EU account
   and is reported as "EU ARR". Never add the two together in one number because of data residency.
